@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News | Elite Prospects Hockey</title>
+  <meta name="description" content="The latest news, announcements, and player spotlights from Elite Prospects Hockey.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="site-logo">
+        <img src="images/logo.svg" alt="Elite Prospects Hockey" class="logo-icon">
+        <div class="logo-text">
+          <span class="logo-top">ELITE PROSPECTS</span>
+          <span class="logo-bottom">HOCKEY</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-dropdown">
+          <span class="dropdown-toggle">Showcase
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </span>
+          <ul class="dropdown-menu">
+            <li><a href="showcase/2014.html">2014</a></li>
+            <li><a href="showcase/2015.html">2015</a></li>
+            <li><a href="showcase/2016.html">2016</a></li>
+            <li><a href="showcase/2017.html">2017</a></li>
+            <li><a href="showcase/2018.html">2018</a></li>
+          </ul>
+        </li>
+        <li><a href="news.html" class="active">News</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ══ PAGE HERO ════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>News</span>
+      </div>
+      <span class="tag">Latest Updates</span>
+      <h1>News &amp; <span style="color:var(--ice)">Announcements</span></h1>
+      <p>Stay current with showcase schedules, alumni achievements, and EP Hockey updates.</p>
+    </div>
+  </section>
+
+  <!-- ══ FEATURED ARTICLE ══════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <!-- Featured / Hero Article -->
+      <div style="display:grid; grid-template-columns:1.2fr 1fr; gap:0; background:var(--navy); border:1px solid rgba(14,165,233,.15); border-radius:var(--radius); overflow:hidden; margin-bottom:60px;">
+        <div style="background:var(--blue-deep); min-height:340px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 500 340" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-height:340px;">
+            <rect width="500" height="340" fill="#061525"/>
+            <circle cx="250" cy="170" r="120" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.2"/>
+            <circle cx="250" cy="170" r="80" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.15"/>
+            <line x1="0" y1="170" x2="500" y2="170" stroke="#0ea5e9" stroke-width="1" opacity="0.12"/>
+            <line x1="0" y1="120" x2="500" y2="120" stroke="#dc2626" stroke-width="1" opacity="0.2"/>
+            <line x1="0" y1="220" x2="500" y2="220" stroke="#dc2626" stroke-width="1" opacity="0.2"/>
+            <text x="250" y="145" font-family="Oswald,sans-serif" font-size="48" font-weight="700"
+                  fill="#0ea5e9" text-anchor="middle" opacity="0.5">2025</text>
+            <text x="250" y="190" font-family="Oswald,sans-serif" font-size="18" font-weight="700"
+                  fill="#ffffff" text-anchor="middle" opacity="0.6" letter-spacing="4">SHOWCASE SEASON</text>
+            <text x="250" y="218" font-family="Oswald,sans-serif" font-size="12"
+                  fill="#f59e0b" text-anchor="middle" opacity="0.7" letter-spacing="3">ELITE PROSPECTS HOCKEY</text>
+          </svg>
+        </div>
+        <div style="padding:44px 40px; display:flex; flex-direction:column; justify-content:center;">
+          <div class="news-meta" style="margin-bottom:16px;">
+            <span class="news-cat">Announcement</span>
+            <span class="news-date">March 15, 2025</span>
+          </div>
+          <h2 style="font-size:1.7rem; color:var(--white); margin-bottom:18px; line-height:1.25;">2025 Elite Prospects Showcase Season Officially Announced</h2>
+          <p style="font-size:.95rem; margin-bottom:24px; line-height:1.75;">We're thrilled to announce that registration is now open for all five birth year classes in the 2025 Elite Prospects Showcase season. Event dates and locations are being finalized and will be communicated to all invited players. Spots are extremely limited — submit your player now to be considered.</p>
+          <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:center;">
+            <a href="index.html#submission" class="btn btn-primary">Submit Your Player</a>
+            <a href="contact.html" style="color:var(--ice); font-size:.9rem; display:flex; align-items:center; gap:6px;">
+              Ask a Question
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="news-filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Announcements</button>
+        <button class="filter-btn">Alumni</button>
+        <button class="filter-btn">Recruiting</button>
+        <button class="filter-btn">Event Recaps</button>
+      </div>
+
+      <!-- News Grid -->
+      <div class="news-grid">
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <polygon points="200,30 230,110 320,110 252,158 278,238 200,190 122,238 148,158 80,110 170,110" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.35"/>
+              <text x="200" y="118" font-family="Oswald,sans-serif" font-size="22" font-weight="700" fill="#f59e0b" text-anchor="middle" opacity="0.7">ALUMNI</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Alumni</span>
+              <span class="news-date">Feb 28, 2025</span>
+            </div>
+            <h3>EP Alumni Dominating at AAA &amp; Junior Levels</h3>
+            <p>Former Elite Prospects standouts are making waves across top development leagues. Three 2014-class alumni committed to Tier 1 programs this winter.</p>
+            <a href="#" class="read-more">Read More
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <circle cx="200" cy="100" r="65" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+              <line x1="0" y1="100" x2="400" y2="100" stroke="#0ea5e9" stroke-width="1" opacity="0.2"/>
+              <text x="200" y="88" font-family="Oswald,sans-serif" font-size="28" font-weight="700" fill="#0ea5e9" text-anchor="middle" opacity="0.6">TOP</text>
+              <text x="200" y="116" font-family="Oswald,sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.5" letter-spacing="2">PROSPECTS</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Recruiting</span>
+              <span class="news-date">Jan 10, 2025</span>
+            </div>
+            <h3>How to Get Your Player Noticed at the Showcase</h3>
+            <p>Our evaluators break down exactly what they're looking for — and what separates a good player from an elite prospect at every showcase event.</p>
+            <a href="#" class="read-more">Read More
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <rect x="60" y="60" width="280" height="80" rx="4" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.4"/>
+              <text x="200" y="108" font-family="Oswald,sans-serif" font-size="18" font-weight="700" fill="#dc2626" text-anchor="middle" opacity="0.7" letter-spacing="2">2018 RECAP</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Event Recap</span>
+              <span class="news-date">Dec 5, 2024</span>
+            </div>
+            <h3>2018 Birth Year Showcase — Event Recap</h3>
+            <p>The 2018 class showcase was one of our best yet. Fourteen scouts in attendance, sixty-two elite players, and standout performances across all positions.</p>
+            <a href="showcase/2018.html" class="read-more">View Showcase
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <path d="M200 40 L280 80 L280 155 C280 185 244 205 200 218 C156 205 120 185 120 155 L120 80 Z" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.4"/>
+              <text x="200" y="128" font-family="Oswald,sans-serif" font-size="14" font-weight="700" fill="#0ea5e9" text-anchor="middle" opacity="0.7" letter-spacing="2">SCOUT</text>
+              <text x="200" y="148" font-family="Oswald,sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" opacity="0.5" letter-spacing="2">NETWORK</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Announcement</span>
+              <span class="news-date">Nov 18, 2024</span>
+            </div>
+            <h3>EP Hockey Expands Scout Partnership Network</h3>
+            <p>We're proud to announce new scouting partnerships with three additional Tier 1 programs for the 2025 season, giving our showcase participants even greater exposure.</p>
+            <a href="#" class="read-more">Read More
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <text x="200" y="88" font-family="Oswald,sans-serif" font-size="52" font-weight="700" fill="#f59e0b" text-anchor="middle" opacity="0.2">#1</text>
+              <text x="200" y="128" font-family="Oswald,sans-serif" font-size="16" fill="#f59e0b" text-anchor="middle" opacity="0.6" letter-spacing="3">PLAYER SPOTLIGHT</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Alumni</span>
+              <span class="news-date">Oct 30, 2024</span>
+            </div>
+            <h3>Alumni Spotlight: From EP Showcase to AAA Commitment</h3>
+            <p>We follow up with a standout from our 2015 class showcase who recently committed to a top AAA program — tracing the path from EP invitation to elite development.</p>
+            <a href="#" class="read-more">Read More
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img">
+            <svg class="news-img-art" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a1525"/>
+              <ellipse cx="200" cy="115" rx="80" ry="45" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.5" opacity="0.6"/>
+              <ellipse cx="200" cy="112" rx="80" ry="45" fill="#0ea5e9" opacity="0.08" stroke="#0ea5e9" stroke-width="1"/>
+              <text x="200" y="108" font-family="Oswald,sans-serif" font-size="22" font-weight="700" fill="#0ea5e9" text-anchor="middle" opacity="0.8">2017</text>
+              <text x="200" y="128" font-family="Oswald,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.5" letter-spacing="2">SHOWCASE RECAP</text>
+            </svg>
+          </div>
+          <div class="news-card-body">
+            <div class="news-meta">
+              <span class="news-cat">Event Recap</span>
+              <span class="news-date">Sep 22, 2024</span>
+            </div>
+            <h3>2017 Birth Year Showcase — Full Recap &amp; Standouts</h3>
+            <p>A loaded 2017 class showed up and showed out. Highlights from the event plus our evaluators' top performers from each position group.</p>
+            <a href="showcase/2017.html" class="read-more">View Showcase
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ NEWSLETTER / SUBMIT CTA ══════════════════════════════ -->
+  <section class="showcase-banner">
+    <div class="container">
+      <span class="tag">Stay In The Loop</span>
+      <h2>Don't Miss a Thing</h2>
+      <p>Have a player ready for evaluation? Submit them now — showcase spots for each birth year fill fast.</p>
+      <a href="index.html#submission" class="btn btn-primary">Submit Your Player Now</a>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ═══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div style="margin-bottom:16px;">
+            <div style="font-family:'Oswald',sans-serif;font-size:1.2rem;letter-spacing:.08em;font-weight:700;color:var(--white);">ELITE PROSPECTS</div>
+            <div style="font-family:'Oswald',sans-serif;font-size:.9rem;letter-spacing:.18em;color:var(--ice);margin-top:2px;">HOCKEY</div>
+          </div>
+          <p>The premier invite-only youth hockey showcase. Our alumni speak for themselves.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Showcase</h5>
+          <ul>
+            <li><a href="showcase/2014.html">2014 Showcase</a></li>
+            <li><a href="showcase/2015.html">2015 Showcase</a></li>
+            <li><a href="showcase/2016.html">2016 Showcase</a></li>
+            <li><a href="showcase/2017.html">2017 Showcase</a></li>
+            <li><a href="showcase/2018.html">2018 Showcase</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#submission">Submit Player</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:info@eliteprospectshockey.com">info@eliteprospectshockey.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Elite Prospects Hockey. All rights reserved.</p>
+        <p><a href="mailto:info@eliteprospectshockey.com">info@eliteprospectshockey.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
